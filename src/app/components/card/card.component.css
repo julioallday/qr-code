@@ -1,0 +1,26 @@
+.principal {
+    max-width: 375px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 18px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+.imagem {
+    border-radius: 12px;
+    margin: 5px;
+}
+.card > .titulo {
+    font-size: 22px;
+    padding: 18px 0px;
+}
+.card > .conteudo {
+    font-size: 15px;
+    padding: 0px 18px 38px 20px;
+}
